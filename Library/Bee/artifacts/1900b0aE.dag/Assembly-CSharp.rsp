@@ -354,8 +354,10 @@
 -analyzer:"E:/2022.3.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/FantasyEnvironments/Environments/Town/Scripts/Door.cs"
 "Assets/Rabbits/Demo/Scripts/AnimatorParamatersChange.cs"
+"Assets/Scripts/InteractableObject.cs"
 "Assets/Scripts/MouseMovement.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/SelectionManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
