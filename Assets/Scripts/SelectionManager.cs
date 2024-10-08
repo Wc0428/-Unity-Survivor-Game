@@ -6,7 +6,7 @@ using UnityEngine.UI;
  
 public class SelectionManager : MonoBehaviour
 {
- 
+   
     public GameObject interaction_Info_UI;
     Text interaction_text;
  
