@@ -13,6 +13,7 @@ public class SelectionManager : MonoBehaviour
     {
         interaction_text = interaction_Info_UI.GetComponent<Text>();
     }
+    
  
     void Update()
     {
