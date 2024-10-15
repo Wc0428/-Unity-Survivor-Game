@@ -8,6 +8,7 @@ public class SelectionManager : MonoBehaviour
 {
     public GameObject interaction_Info_UI;
     Text interaction_text;
+    
  
     private void Start()
     {
