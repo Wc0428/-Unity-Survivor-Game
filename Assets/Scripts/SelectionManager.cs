@@ -9,7 +9,6 @@ public class SelectionManager : MonoBehaviour
     public GameObject interaction_Info_UI;
     Text interaction_text;
     
-    
     private void Start()
     {
         interaction_text = interaction_Info_UI.GetComponent<Text>();
