@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
  
-    [SerializedField] private Canvas canvas;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
  
@@ -47,8 +46,6 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
  
     }
  
- 
- 
     public void OnEndDrag(PointerEventData eventData)
     {
  
@@ -65,7 +62,5 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
     }
- 
- 
- 
+  
 }
