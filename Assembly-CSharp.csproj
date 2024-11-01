@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\InventorySystem.cs" />
     <Compile Include="Assets\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
     <Compile Include="Assets\FastMesh\Scripts\SceneViewText.cs" />
+    <Compile Include="Assets\Scripts\Blueprint.cs" />
     <Compile Include="Assets\Scripts\InteractableObject.cs" />
     <Compile Include="Assets\Scripts\DragDrop.cs" />
     <Compile Include="Assets\Scripts\CraftingSystem.cs" />

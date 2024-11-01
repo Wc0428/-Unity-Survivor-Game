@@ -357,6 +357,7 @@
 "Assets/FastMesh/Scripts/SceneViewText.cs"
 "Assets/Rabbits/Demo/Scripts/AnimatorParamatersChange.cs"
 "Assets/Scripts/AI_Movement.cs"
+"Assets/Scripts/Blueprint.cs"
 "Assets/Scripts/CraftingSystem.cs"
 "Assets/Scripts/DragDrop.cs"
 "Assets/Scripts/InteractableObject.cs"
