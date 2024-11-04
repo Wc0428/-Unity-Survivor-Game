@@ -92,24 +92,32 @@ public void AddToInventory(string itemName)
         itemList.Add(itemName);
 
         Sprite sprite = itemToAdd.GetComponent<Image>().sprite;
-        TriggerPickupPop(itemName, sprite);
+        TriggerPickupPopUp(itemName, sprite);
 
         ReCalculateList();
         CraftingSystem.Instance.RefreshNeedItems();
 
 }
 
-    void TriggerPickupPop(string itemName, Sprite itemSprite)
-    {
-        pickupAlert.SetActive(true);
+    void TriggerPickupPopUp(string itemName, Sprite itemSprite)
+        {
+            pickupAlert.SetActive(true);
 
-        pickupName.text = itemName;
-        pickupImage.sprite = itemSprite;
+            pickupName.text = itemName;
 
+            pickupImage.sprite = itemSprite;
 
+            StartCoroutine(HidePickupAlertAfterDelay(2f));
+        }
 
+    private IEnumerator HidePickupAlertAfterDelay(float delay)
+        {
+        
+            yield return new WaitForSeconds(delay);
 
-    }
+            
+            pickupAlert.SetActive(false);
+        }
     private GameObject FindNextEmptySlot()
     {
         foreach(GameObject slot in slotList)
