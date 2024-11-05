@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {   
-    public Slider slider;
+    private Slider slider;
     public Text healthCounter;
     public GameObject playerState;
 
