@@ -5,8 +5,9 @@ using UnityEngine;
 using UnityEngine.UI;
 public class InventorySystem : MonoBehaviour
 {
- 
-   public static InventorySystem Instance { get; set; }
+    
+  
+    public static InventorySystem Instance { get; set; }
  
     public GameObject inventoryScreenUI;
 
@@ -26,8 +27,7 @@ public class InventorySystem : MonoBehaviour
     public Text pickupName;
     public Image pickupImage;
 
-
-
+    public GameObject ItemInfoUi;
     private void Awake()
     {
         if (Instance != null && Instance != this)
