@@ -31,30 +31,18 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         
         itemInfoUI = InventorySystem.Instance.ItemInfoUi;
-        itemInfoUI_itemName = itemInfoUI.transform.Find("itemName")?.GetComponent<Text>();
-        itemInfoUI_itemDescription = itemInfoUI.transform.Find("itemDescription")?.GetComponent<Text>();
-        itemInfoUI_itemFunctionality = itemInfoUI.transform.Find("itemFunctionality")?.GetComponent<Text>();
+        itemInfoUI_itemName = itemInfoUI.transform.Find("ItemName").GetComponent<Text>();
+        itemInfoUI_itemDescription = itemInfoUI.transform.Find("ItemDescription").GetComponent<Text>();
+        itemInfoUI_itemFunctionality = itemInfoUI.transform.Find("ItemFunctionality").GetComponent<Text>();
     }
  
     // Triggered when the mouse enters into the area of the item that has this script.
     public void OnPointerEnter(PointerEventData eventData)
     {
         itemInfoUI.SetActive(true);
-        
-        if (itemInfoUI_itemName != null) 
-            {
-                itemInfoUI_itemName.text = thisName;
-            }
-
-            if (itemInfoUI_itemDescription != null) 
-            {
-                itemInfoUI_itemDescription.text = thisDescription;
-            }
-
-            if (itemInfoUI_itemFunctionality != null) 
-            {
-                itemInfoUI_itemFunctionality.text = thisFunctionality;
-            }
+        itemInfoUI_itemName.text = thisName;
+        itemInfoUI_itemDescription.text = thisDescription;
+        itemInfoUI_itemFunctionality.text = thisFunctionality;
     }
  
     // Triggered when the mouse exits the area of the item that has this script.
