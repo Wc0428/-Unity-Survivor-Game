@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\SelectionManager.cs" />
     <Compile Include="Assets\Scripts\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\MouseMovement.cs" />
+    <Compile Include="Assets\Scripts\EquipSystem.cs" />
     <Compile Include="Assets\a.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
