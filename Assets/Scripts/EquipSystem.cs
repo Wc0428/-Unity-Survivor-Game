@@ -43,6 +43,7 @@ public class EquipSystem : MonoBehaviour
         }
     }
  
+ 
     public void AddToQuickSlots(GameObject itemToEquip)
     {
         // Find next free slot
