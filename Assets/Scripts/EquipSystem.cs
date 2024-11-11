@@ -26,7 +26,6 @@ public class EquipSystem : MonoBehaviour
         }
     }
  
- 
     private void Start()
     {
         PopulateSlotList();
