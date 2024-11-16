@@ -71,6 +71,7 @@ public class EquipSystem : MonoBehaviour
         return new GameObject();
     }
  
+ 
     public bool CheckIfFull()
     {
  
