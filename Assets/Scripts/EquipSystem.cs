@@ -58,7 +58,6 @@ public class EquipSystem : MonoBehaviour
  
     }
  
- 
     private GameObject FindNextEmptySlot()
     {
         foreach (GameObject slot in quickSlotsList)
